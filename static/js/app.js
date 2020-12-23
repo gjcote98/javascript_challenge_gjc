@@ -20,10 +20,7 @@ function append(data)
 
 append(tableData);
 
-// Use a date form in your HTML document and write JavaScript code that will 
-//listen for events and 
-//search through the date/time column to 
-//find rows that match user input.
+
 function search()
 {   
     var date = d3.select("#datetime").property("value");
